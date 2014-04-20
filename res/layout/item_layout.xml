@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip">
+    
+<!--     <ImageView
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="3dip"
+        android:src="@drawable/shopping_cart_racing" /> -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Item Name" />
+        
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="70dp"
+            android:layout_height="0dip"
+            android:layout_weight="0.96"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="Quantity" />
+
+        <TextView
+            android:id="@+id/tvUnitPrice"
+            android:layout_width="91dp"
+            android:layout_height="0dip"
+            android:layout_weight="0.97"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="Unit Price" />
+        
+        <TextView
+            android:id="@+id/tvTotalValue"
+            android:layout_width="91dp"
+            android:layout_height="0dip"
+            android:layout_weight="0.97"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="TotalValue" />
+            
+    </LinearLayout>
+
+</LinearLayout>
